@@ -1,12 +1,14 @@
 package fr.exia.insanevehicles.element.motionless;
 
 import fr.exia.insanevehicles.element.Element;
+import fr.exia.insanevehicles.element.Permeability;
+import fr.exia.insanevehicles.element.Sprite;
 
 /**
- * <h1>The Class MotionlessElement.</h1>
+ * <h1>The MotionlessElement Class.</h1>
  *
  * @author Jade
- * @version 0.1
+ * @version 0.2
  */
 abstract class MotionlessElement extends Element {
 
@@ -15,9 +17,11 @@ abstract class MotionlessElement extends Element {
      *
      * @param sprite
      *            the sprite
+     * @param permeability
+     *            the permeability
      */
-    MotionlessElement(final char sprite) {
-        super(sprite);
+    MotionlessElement(final Sprite sprite, final Permeability permeability) {
+        super(sprite, permeability);
     }
 
 }

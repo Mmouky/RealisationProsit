@@ -4,20 +4,20 @@ import fr.exia.insanevehicles.element.Permeability;
 import fr.exia.insanevehicles.element.Sprite;
 
 /**
- * <h1>The Obstacle Class.</h1>
+ * <h1>The DitchRight Class.</h1>
  *
  * @author Jade
  * @version 0.2
  */
-class Obstacle extends MotionlessElement {
+class DitchRight extends MotionlessElement {
 
     /** The Constant SPRITE. */
-    private static final Sprite SPRITE = new Sprite('X', "Obstacle.jpg");
+    private static final Sprite SPRITE = new Sprite(']', "DitchRight.jpg");
 
     /**
-     * Instantiates a new obstacle.
+     * Instantiates a new ditchRight.
      */
-    Obstacle() {
+    DitchRight() {
         super(SPRITE, Permeability.BLOCKING);
     }
 }
